@@ -137,6 +137,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":AndroidLibXrayLite"))
     // Core Libraries
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.aar", "*.jar"))))
 
